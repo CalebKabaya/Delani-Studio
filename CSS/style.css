@@ -22,7 +22,7 @@
  padding: 40px 0;
 }
 #about-container p{
-    font-size: 17px;
+    font-size: 20px;
     margin: 20px 0;
 }
 #serv{
@@ -46,6 +46,10 @@
     justify-content:space-around; 
 padding: 40px;
 }
+.what-we-do h2{
+    text-align: center;
+    padding-top: 40px;
+}
 .cols-2{
     justify-content: space-between;
     text-align: center;
@@ -58,14 +62,21 @@ padding: 40px;
 .col-3 img{
 width: 100%;
 }
+.container h2{
+    text-align: center;
+}
+
+
+
 /* contact section */
 #contact-container{
     /* background-color: tomato; */
 
 }
 #contact-container input{
-width: 35%;
+width: 40%;
 margin: 20px 20px;
+padding: 10px;
 background-color: transparent;
 border: 1px solid white;
 color: white;
@@ -92,4 +103,7 @@ color: white;
 #contact-container h2{
     text-align: center;
     color: white;
+}
+form{
+    text-align: center;
 }
