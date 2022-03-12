@@ -25,3 +25,17 @@
     font-size: 17px;
     margin: 20px 0;
 }
+#serv{
+    background-image: url("../images/s_image.jpg");
+ 
+}
+#service-container{
+    color: white;
+}
+#service-container h2{
+     padding-top: 40px;
+}
+#service-container p{
+    font-size: 20px;
+    font-weight:normal;
+}
