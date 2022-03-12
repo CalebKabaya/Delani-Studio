@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #main-container {
     background-image: url("../images/h_img.jpg");
     height: 100vh;
@@ -12,4 +17,11 @@
 }
 .descript h2,h3,p, img{
     padding: 17px 0;
+}
+#about-container{
+ padding: 40px 0;
+}
+#about-container p{
+    font-size: 20px;
+    margin: 20px 0;
 }
