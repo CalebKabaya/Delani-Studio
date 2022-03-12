@@ -1,0 +1,15 @@
+#main-container {
+    background-image: url("../images/h_img.jpg");
+    height: 100vh;
+    color: white;
+  
+}
+.descript{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.descript h2,h3,p, img{
+    padding: 17px 0;
+}
