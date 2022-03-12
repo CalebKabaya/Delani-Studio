@@ -65,13 +65,31 @@ width: 100%;
 }
 #contact-container input{
 width: 35%;
+margin: 20px 20px;
+background-color: transparent;
+border: 1px solid white;
+color: white;
 }
 .container textarea {
     width: 80%;
+    height: 35vh;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+
 }
 #contact{
     background-image: url("../images/c_image.jpg");
     height: 74vh;
     background-repeat: no-repeat;
     background-size: cover;
+
+
+}
+#contact-container{
+    padding-top: 40px;
+}
+#contact-container h2{
+    text-align: center;
+    color: white;
 }
