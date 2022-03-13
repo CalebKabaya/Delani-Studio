@@ -24,31 +24,49 @@ $(document).ready(function() {
         $("#p3").toggle();
         $("#img3").toggle();
       });
-
-      $("#card1").hover(
-        function () {
-          $("#card1").addClass("overlay");
-          $(".hoover").show();
-        },
-        function () {
-          $(".hoover").hide();
-        }
-      );
-
 });
+
 $(document).ready(function(){
-    $("#card1").hover(
-        function () {
-          $(this).addClass("overlay");
-          $(".hoover").show();
-        },
-        function () {
-          $(".hoover").hide();
-        }
-      );
-});
- let myName = document.getElementById("fname")
+    $("#card1").mouseover(function(){
+      $("#overlay").show();
+    }).mouseout(function(){
+      $("#overlay").hide();
+    });
+
+    $("#card1").mouseover(function(){
+        $("#overlay").show();
+      }).mouseout(function(){
+        $("#overlay").hide();
+      });
+      $("#card1").mouseover(function(){
+        $("#overlay").show();
+      }).mouseout(function(){
+        $("#overlay").hide();
+      });
+      $("#card1").mouseover(function(){
+        $("#overlay").show();
+      }).mouseout(function(){
+        $("#overlay").hide();
+      });
+      $("#card1").mouseover(function(){
+        $("#overlay").show();
+      }).mouseout(function(){
+        $("#overlay").hide();
+      });
+      $("#card1").mouseover(function(){
+        $("#overlay").show();
+      }).mouseout(function(){
+        $("#overlay").hide();
+      });
+      $("#card1").mouseover(function(){
+        $("#overlay").show();
+      }).mouseout(function(){
+        $("#overlay").hide();
+      });
+  });
+
+let myName = document.getElementById("fname")
 function userMessage(){
-    alert(myName+"we have received your message. Thank you fro reaching out to us.")
+    alert(" "+"we have received your message. Thank you for reaching out to us.")
 }
-userMessage();
+// userMessage();
