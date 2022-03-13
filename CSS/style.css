@@ -128,3 +128,6 @@ footer{
 .cols-2 p{
     display: none;
 }
+#card1:hover{
+    background-color: white;
+}

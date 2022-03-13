@@ -24,5 +24,26 @@ $(document).ready(function() {
         $("#p3").toggle();
         $("#img3").toggle();
       });
-    
+
+      $("#card1").hover(
+        function () {
+          $("#card1").addClass("overlay");
+          $(".hoover").show();
+        },
+        function () {
+          $(".hoover").hide();
+        }
+      );
+
+});
+$(document).ready(function(){
+    $("#card1").hover(
+        function () {
+          $(this).addClass("overlay");
+          $(".hoover").show();
+        },
+        function () {
+          $(".hoover").hide();
+        }
+      );
 });
