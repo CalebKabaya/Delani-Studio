@@ -47,3 +47,8 @@ $(document).ready(function(){
         }
       );
 });
+ let myName = document.getElementById("fname")
+function userMessage(){
+    alert(myName+"we have received your message. Thank you fro reaching out to us.")
+}
+userMessage();

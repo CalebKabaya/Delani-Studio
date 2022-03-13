@@ -83,6 +83,8 @@
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col-3" id="card1">
                     <div class="card h-100">
+                        <!-- <div class=" hoover" id="hoover"> -->
+                            <!-- <h1>BALEY <br>WANGER</h1> -->
                         <img src="./images/work4.jpg" alt="...">
                     </div>
                 </div>
@@ -128,16 +130,16 @@
         <div class="container-fluid" id="contact">
             <div class="container" id="contact-container">
                 <h2>CONTACT US</h2>
-                <form action="/action_page.php">
+                <form action="https://formspree.io/f/mzbovbzr" method="post">
 
                     <input type="text" id="fname" value="First Name">
-                    <input type="text" id="fname" value="Second Name"><br><br>
+                    <input type="text" id="lname" value="Second Name"><br><br>
                     <div class="container">
 
                         <textarea id="w3review" name="w3review" rows="4" cols="50"> Message</textarea>
                     </div>
 
-                    <!-- <input type="submit" value="Submit"> -->
+                    <input type="submit" value="Submit" onclick="userMessage()">
                 </form>
             </div>
         </div>
