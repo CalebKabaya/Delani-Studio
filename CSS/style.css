@@ -53,6 +53,8 @@ padding: 40px;
 .cols-2{
     justify-content: space-between;
     text-align: center;
+    /* background-color: tomato; */
+    width: 40%;
 }
 .cols-2 h2{
     font-size: 24px;
@@ -119,4 +121,10 @@ footer h5{
 }
 footer{
     padding-top: 20px;
+}
+
+
+/* for jquery */
+.cols-2 p{
+    display: none;
 }
