@@ -33,35 +33,40 @@ $(document).ready(function(){
       $("#overlay").hide();
     });
 
-    $("#card1").mouseover(function(){
-        $("#overlay").show();
+    $("#card2").mouseover(function(){
+        $("#overlay2").show();
       }).mouseout(function(){
-        $("#overlay").hide();
+        $("#overlay2").hide();
       });
-      $("#card1").mouseover(function(){
-        $("#overlay").show();
+      $("#card3").mouseover(function(){
+        $("#overlay3").show();
       }).mouseout(function(){
-        $("#overlay").hide();
+        $("#overlay3").hide();
       });
-      $("#card1").mouseover(function(){
-        $("#overlay").show();
+      $("#card4").mouseover(function(){
+        $("#overlay4").show();
       }).mouseout(function(){
-        $("#overlay").hide();
+        $("#overlay4").hide();
       });
-      $("#card1").mouseover(function(){
-        $("#overlay").show();
+      $("#card5").mouseover(function(){
+        $("#overlay5").show();
       }).mouseout(function(){
-        $("#overlay").hide();
+        $("#overlay5").hide();
       });
-      $("#card1").mouseover(function(){
-        $("#overlay").show();
+      $("#card6").mouseover(function(){
+        $("#overlay6").show();
       }).mouseout(function(){
-        $("#overlay").hide();
+        $("#overlay6").hide();
       });
-      $("#card1").mouseover(function(){
-        $("#overlay").show();
+      $("#card7").mouseover(function(){
+        $("#overlay7").show();
       }).mouseout(function(){
-        $("#overlay").hide();
+        $("#overlay7").hide();
+      });
+      $("#card8").mouseover(function(){
+        $("#overlay8").show();
+      }).mouseout(function(){
+        $("#overlay8").hide();
       });
   });
 
